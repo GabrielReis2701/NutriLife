@@ -54,7 +54,7 @@ public class MainActivity2 extends AppCompatActivity {
                 riscos = "Refluxo, dificuldade para se mover, escaras, diabetes, infarto, AVC";
             }
 
-            tv_resultado.setText("Olá, "+nome+"."+"\nSeu IMC é: "+imc+"\nClassificação: "+classificacao+"\n\nAbaixo estão os riscos associados ao seu resultado:\n"
+            tv_resultado.setText("Olá, "+nome+"."+"\nSeu IMC é: "+String.format("%.2f",imc)+"\nClassificação: "+classificacao+"\n\nAbaixo estão os riscos associados ao seu resultado:\n"
             +riscos);
 
 
