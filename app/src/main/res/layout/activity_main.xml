@@ -78,23 +78,6 @@
             android:layout_height="60dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
-        android:id="@+id/bt_calcular"
-        android:layout_width="241dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="64dp"
-        android:background="#03A9F4"
-        android:backgroundTint="#03A9F4"
-        android:foregroundTint="#00BCD4"
-        android:text="Calcular"
-        app:cornerRadius="@dimen/cardview_compat_inset_shadow"
-        app:layout_constraintCircleRadius="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rg_grupo"
-        app:strokeColor="#03A9F4" />
-
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -202,5 +185,17 @@
             android:layout_weight="1"
             android:text="Feminino" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_calcular"
+        android:layout_width="274dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/botao_personalizado"
+        android:text="Calcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg_grupo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -51,9 +51,10 @@
 
     <Button
         android:id="@+id/bt_voltar"
-        android:layout_width="244dp"
-        android:layout_height="52dp"
+        android:layout_width="281dp"
+        android:layout_height="51dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/botao_personalizado2"
         android:text="Voltar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
